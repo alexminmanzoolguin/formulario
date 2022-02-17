@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-image: url('img/escuela.png');
+    background-repeat:no-repeat;
+  background-position-x:center 40px;
+  background-position-y:center 40px;
+  background-size: 95rem;
+   
+}
+
+.form-login{
+    width: 500px;
+    height: 450px;
+    background: #bbcab9;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #e8ffe5;
+    padding: 20px 30px;
+    border-top: 4px solid #e7ebe7;
+    color: white;
+}
+
+.form-login h3{
+   margin: 0;
+   text-align: center;
+   height: 40px;
+   margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+
+.controls{
+    width: 100%;
+    border: 1px solid #e1eee1;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #819781;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+.buttons{
+    width: 50%;
+    height: 75;
+    background: #a4c5d4;
+    border:none;
+    color: rgb(68, 116, 219);
+    margin-bottom:50px;
+}
+
+
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+
+.form-login a{
+    color: azure;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.form-login a:hover{
+    text-decoration: underline;
+}
